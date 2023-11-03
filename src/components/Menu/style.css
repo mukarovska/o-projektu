@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.menu--nadpis {
+  font-family: 'Rubik', sans-serif;
+}
+
+.menu--seznam {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+
+}
+
+.menu--seznam li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 25px;
+  padding: 7px 15px;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.menu--seznam li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid white;
+
+}
