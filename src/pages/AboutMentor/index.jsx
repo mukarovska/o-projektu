@@ -1,13 +1,24 @@
+import './style.css';
+
 export const AboutMentor = () => {
   return (
-    <main>
-      <h2>Mentor</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-        numquam quaerat vel quas odio alias nulla perspiciatis eos ipsa
-        nesciunt, id, porro pariatur a ut maxime recusandae! Voluptatum,
-        accusamus aut?
-      </p>
-    </main>
+    <div className="aboutMentor--content">
+      <div className="aboutMentor--imgsHolder">
+        <img className="aboutMentor--img" src="/img/jirka.jpg" alt="jirka" />
+      </div>
+
+      <div className="aboutMentor--textContent">
+        <h2 className="aboutMentor--name">Jirka Vebr</h2>
+        <p className="aboutMentor--text">
+          Studoval jsem Computer Science v Edinburghu, ale aktuálně žiju v
+          Praze. <br />
+          Takřka dekádu jsem se věnoval front-end vývoji, ale dnes už programuji
+          v Rustu.
+          <br />
+          Již od střední jsem učil matematiku, následně na univerzitě
+          programování a dnes učím ženy.
+        </p>
+      </div>
+    </div>
   );
 };

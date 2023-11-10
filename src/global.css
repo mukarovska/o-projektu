@@ -12,6 +12,7 @@ body {
   background: rgb(135, 120, 199);
   background: linear-gradient(173deg, rgba(135, 120, 199, 1) 5%, rgba(171, 248, 231, 1) 100%);
   background-repeat: no-repeat;
+  height: 100vh;
   margin: 20px;
   padding: 20px;
 }
