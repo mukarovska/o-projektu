@@ -1,10 +1,8 @@
 import './style.css';
-import { Menu } from '../Menu';
 
 export const Header = () => {
   return (
-    <header className="header">
-      <Menu />
+    <div className="header">
       <div className="header--content">
         <div className="header--textContent">
           <h1 className="header--moto">Každý je unikát</h1>
@@ -29,6 +27,6 @@ export const Header = () => {
           />
         </div>
       </div>
-    </header>
+    </div>
   );
 };

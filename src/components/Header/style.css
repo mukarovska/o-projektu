@@ -23,7 +23,7 @@
 
 .header--imgsHolder {
   position: relative;
-  height: fit-content;
+  /* height: fit-content; */
   flex-basis: 40%;
 }
 

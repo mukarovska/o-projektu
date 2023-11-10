@@ -12,9 +12,48 @@ body {
   background: rgb(135, 120, 199);
   background: linear-gradient(173deg, rgba(135, 120, 199, 1) 5%, rgba(171, 248, 231, 1) 100%);
   background-repeat: no-repeat;
-  height: 100vh;
+  margin: 20px;
+  padding: 20px;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.menu--nadpis {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.menu--seznam {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 25px;
+  padding: 7px 15px;
+  transition: border 0.5s, transform 0.5s;
+}
+
+.link:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border: 2px solid white;
+
 }

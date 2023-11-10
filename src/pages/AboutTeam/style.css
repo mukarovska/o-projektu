@@ -1,0 +1,41 @@
+.aboutTeam--content {
+  color: white;
+  margin: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.grace,
+.kaja {
+  display: flex;
+  align-items: center;
+}
+
+
+.aboutTeam--textContent {
+  flex-basis: 70%;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.aboutTeam--imgsHolder {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+
+.aboutTeam--img {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+.aboutTeam--name {
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 20px;
+}
+
+.aboutTeam--text {
+  font-size: 20px;
+}
