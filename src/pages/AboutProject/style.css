@@ -1,0 +1,41 @@
+.aboutProject__container {
+  margin-top: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 50px
+}
+
+.aboutProject__info,
+.aboutProject__imagesHolder {
+  flex-basis: 50%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.aboutProject__info {
+  text-align: center;
+  color: white;
+}
+
+.aboutProject__heading {
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 20px;
+}
+
+.aboutProject__text {
+  font-size: 20px
+}
+
+
+.aboutProject__imagesHolder {
+  display: flex;
+  gap: 10px;
+}
+
+.aboutProject__img {
+  width: 100%;
+  max-width: 100%;
+}

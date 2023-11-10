@@ -22,7 +22,7 @@ const App = () => {
         </Link>
         <nav className="menu--seznam">
           <Link className="link" to="/">
-            Úvodní stránka
+            ÚVODNÍ STRÁNKA
           </Link>
           <span> | </span>
           <Link className="link" to="/about-team">
